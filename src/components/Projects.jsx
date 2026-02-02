@@ -26,7 +26,7 @@ const Projects = () => {
 
         <Link
           to="/projects"
-          className="inline-flex items-center gap-2 px-6 py-3 bg-[rgba(255,255,255,0.05)] hover:bg-[rgba(255,255,255,0.1)] border border-white/10 rounded-lg text-sm font-medium transition-all hover:gap-3 group"
+          className="inline-flex items-center gap-2 px-6 py-3 bg-[#C95616] hover:bg-[rgba(255,255,255,0.1)] border border-white/10 rounded-lg text-sm font-medium transition-all hover:gap-3 group"
         >
           View All Projects
           <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -38,6 +38,14 @@ const Projects = () => {
           <ProjectCard key={index} {...project} />
         ))}
       </div>
+
+      <Link
+        to="/projects"
+        className="inline-flex items-center mt-4 gap-2 px-6 py-3 bg-[#C95616] hover:bg-[rgba(255,255,255,0.1)] border border-white/10 rounded-lg text-sm font-medium transition-all hover:gap-3 group"
+      >
+        View All Projects
+        <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+      </Link>
     </section>
   );
 };
