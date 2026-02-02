@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="max-w-7xlpx-4 sm:px-6 md:px-8 py-8 sm:py-8 md:py-8 lg:py-8"
+      className="max-w-7xlpx-4 px-6 sm:px-6 md:px-8 py-8 sm:py-8 md:py-8 lg:py-8"
     >
       <div className="flex flex-col lg:flex-row gap-8 sm:gap-8 md:gap-10 items-start">
         <div className="w-full lg:w-1/2">
@@ -18,14 +18,14 @@ const About = () => {
             deep understanding of user experience.
           </p>
 
-          <p className="text-lg md:text-xl text-[#8aa39b] mb-10 sm:mb-12 leading-relaxed">
+          <p className="text-lg md:text-xl text-[#8aa39b] mb-2 sm:mb-2 leading-relaxed">
             Today, I focus on building accessible, performant, and visually
             polished web applications. My QA background means I write cleaner
             code, anticipate edge cases, and always keep the end user in mind.
           </p>
         </div>
 
-        <div className="w-full lg:w-1/2 h-87.5 pr-13 sm:h-100 md:h-100 flex flex-col justify-center items-center lg:items-end">
+        <div className="w-full lg:w-1/2 h-60.5 sm:h-80 md:h-90 flex flex-col justify-center items-center lg:items-end">
           <Plank
             variant="green"
             className="w-75 sm:w-[320px] -rotate-1 z-30 hover:scale-105 hover:-translate-y-1 transition-transform duration-300"
