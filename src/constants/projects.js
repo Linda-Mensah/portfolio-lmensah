@@ -9,9 +9,21 @@ import {
   Monitor,
   Home,
   Gamepad,
+  Briefcase,
 } from "lucide-react";
 
 export const projects = [
+  {
+    title: "HireLink",
+    description:
+      "HireLink is a streamlined hiring platform designed to simplify recruitment. It features multi-step job applications, admin and recruiter dashboards, and real-time applicant tracking. The platform improves hiring efficiency by providing role-based access, a modern responsive UI, and seamless workflow management across teams.",
+    tech: ["React", "Vite", "TypeScript", "TailwindCSS", "Zustand"],
+    role: "Fullstack",
+    links: { demo: "https://hirelink.netlify.app" },
+
+    icon: Briefcase,
+    image: "/hirelink-thumbnail.png",
+  },
   {
     title: "CodeBlue Multi-Tenant Platform",
     description:

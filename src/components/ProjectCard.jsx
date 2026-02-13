@@ -111,13 +111,12 @@ const ProjectCard = ({
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm font-medium text-[#D1EBE3] hover:text-[#8aa39b] transition-colors"
             >
-              View Live Demo
+              Demo
               <ExternalLink className="w-4 h-4" />
             </a>
           ) : (
             <span className="text-sm text-[#8aa39b]">Demo Coming Soon</span>
           )}
-
           <div className="text-xs text-[#8aa39b]">
             {tech.length} technologies
           </div>
