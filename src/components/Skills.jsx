@@ -1,11 +1,15 @@
 import Plank from "./Plank";
 import { skills } from "../constants/skills";
+import useScrollAnimation from "../hooks/useScrollAnimation";
 
 const Skills = () => {
+  const sectionRef = useScrollAnimation(0.2);
+
   return (
     <section
       id="skills"
-      className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-8 sm:py-16 md:py-8 lg:py-10"
+      ref={sectionRef}
+      className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-8 sm:py-16 md:py-8 lg:py-10 fade-in-section"
     >
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium tracking-tight text-center mb-8 sm:mb-12 md:mb-16">
         Technical Arsenal

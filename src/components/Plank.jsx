@@ -1,3 +1,4 @@
+// Plank.jsx
 import React from "react";
 
 const Plank = ({ children, variant = "ghost", className = "", style = {} }) => {
@@ -13,11 +14,13 @@ const Plank = ({ children, variant = "ghost", className = "", style = {} }) => {
     <div
       className={`
         inline-flex items-center justify-center
-        px-4 sm:px-6 md:px-8 py-2 sm:py-3 md:py-4 
+        px-4 sm:px-6 md:px-8 
+        py-2 sm:py-3 md:py-4
         rounded-xl sm:rounded-2xl font-medium 
-        text-sm sm:text-lg md:text-xl
+        text-sm sm:text-base md:text-lg lg:text-xl
         tracking-tight shadow-lg select-none
         transition-all duration-400
+        max-w-full wrap-break-word whitespace-normal
         ${variantClasses[variant]} ${className}
       `}
       style={style}

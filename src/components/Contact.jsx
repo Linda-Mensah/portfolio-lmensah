@@ -1,10 +1,14 @@
 import { contact } from "../constants/contact";
+import useScrollAnimation from "../hooks/useScrollAnimation";
 
 const Contact = () => {
+  const sectionRef = useScrollAnimation(0.2);
+
   return (
     <section
       id="contact"
-      className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-12"
+      ref={sectionRef}
+      className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-12 fade-in-section"
     >
       <div className="bg-[#D1EBE3] rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-10 lg:p-16 text-center text-[#121816]">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium tracking-tight mb-4">

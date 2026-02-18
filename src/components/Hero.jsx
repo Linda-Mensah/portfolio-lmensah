@@ -1,10 +1,15 @@
-import React from "react";
 import Plank from "./Plank";
 import { ArrowRight } from "lucide-react";
+import useScrollAnimation from "../hooks/useScrollAnimation";
 
 const Hero = () => {
+  const sectionRef = useScrollAnimation(0.1);
+
   return (
-    <header className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 min-h-screen flex flex-col md:flex-row items-center justify-center md:justify-between pt-20 md:pt-0">
+    <header
+      ref={sectionRef}
+      className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 min-h-screen flex flex-col md:flex-row items-center justify-center md:justify-between pt-20 md:pt-0 fade-in-section"
+    >
       <div className="w-full md:w-1/2 z-10 mb-12 md:mb-0">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium tracking-tight leading-tight mb-2 md:mb-8">
           Hi, my name is Linda A. K. Mensah
@@ -28,7 +33,7 @@ const Hero = () => {
       <div className="w-full md:w-1/2 h-80 sm:h-110 md:h-130 relative">
         <Plank
           variant="green"
-          className="absolute text-xl sm:text-2xl md:text-[1.5rem] h-8 sm:h-15 md:h-15 min-w-45 sm:min-w-50 
+          className="absolute text-xl sm:text-2xl md:text-[1.5rem] min-w-45 sm:min-w-50 
             left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0
             md:top-[20%] md:right-[5%] sm:md:right-[10%] 
             top-[15%] 
@@ -43,7 +48,7 @@ const Hero = () => {
 
         <Plank
           variant="cream"
-          className="absolute text-xl sm:text-2xl md:text-[1.5rem] h-8 sm:h-15 md:h-15 min-w-45 sm:min-w-50 
+          className="absolute text-xl sm:text-2xl md:text-[1.5rem] min-w-45 sm:min-w-50 
             left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0
             md:top-[35%] md:right-[15%] sm:md:right-[20%] md:right-[25%] 
             top-[30%]
@@ -59,7 +64,7 @@ const Hero = () => {
         {/* Architecture - Centered on mobile, right on desktop */}
         <Plank
           variant="orange"
-          className="absolute text-xl sm:text-2xl md:text-[1.5rem] h-8 sm:h-15 md:h-15 min-w-45 sm:min-w-50 
+          className="absolute text-xl sm:text-2xl md:text-[1.5rem] min-w-45 sm:min-w-50 
             left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0
             md:top-[50%] md:right-[0%] sm:md:right-[2%] md:right-[5%] 
             top-[45%]
@@ -75,7 +80,7 @@ const Hero = () => {
         {/* Quality - Centered on mobile, right on desktop */}
         <Plank
           variant="ghost"
-          className="absolute text-xl sm:text-2xl md:text-[1.5rem] h-8 sm:h-15 md:h-15 min-w-45 sm:min-w-50 
+          className="absolute text-xl sm:text-2xl md:text-[1.5rem] min-w-45 sm:min-w-50 
             left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0
             md:top-[60%] md:right-[20%] sm:md:right-[25%] md:right-[30%] 
             top-[60%]

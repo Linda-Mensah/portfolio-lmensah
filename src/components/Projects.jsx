@@ -1,19 +1,23 @@
+// Projects.jsx
 import React from "react";
 import { Link } from "react-router-dom";
 import ProjectCard from "./ProjectCard";
 import { ArrowRight } from "lucide-react";
-import ProjectsPage from "../pages/ProjectsPage";
 import { projects } from "../constants/projects";
+import useScrollAnimation from "../hooks/useScrollAnimation";
 
 const Projects = () => {
+  const sectionRef = useScrollAnimation(0.1);
   // Get first 6 projects for homepage
   const homepageProjects = projects.slice(0, 6);
 
   return (
     <section
       id="projects"
-      className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-12 sm:py-16 md:py-20 lg:py-32"
+      ref={sectionRef}
+      className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-12 sm:py-16 md:py-20 lg:py-32 fade-in-section"
     >
+      {/* Rest of your component remains exactly the same */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 sm:mb-12 gap-4">
         <div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium tracking-tight mb-2">

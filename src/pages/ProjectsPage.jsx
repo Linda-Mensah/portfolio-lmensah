@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ProjectCard from "../components/ProjectCard";
 import { ArrowLeft } from "lucide-react";
-import Projects from "../components/Projects";
 import { projects } from "../constants/projects";
 import { contact } from "../constants/contact";
 
@@ -30,7 +29,7 @@ const ProjectsPage = () => {
             solutions in creating reliable software.
           </p>
           <div className="mt-6 text-sm text-[#8aa39b]">
-            Showing {Projects.length} projects
+            Showing {projects.length} projects
           </div>
         </div>
 
@@ -89,6 +88,7 @@ const ProjectsPage = () => {
                 key={platform.title}
                 href={platform.link}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-inherit no-underline font-medium text-sm sm:text-base hover:opacity-80 transition-opacity duration-300"
               >
                 {platform.title}

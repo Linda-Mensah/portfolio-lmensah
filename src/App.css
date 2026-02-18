@@ -26,3 +26,43 @@ html {
 .animate-float {
   animation: float 6s ease-in-out infinite;
 }
+
+/* Add to your global CSS file (e.g., index.css or App.css) */
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.6s ease-out,
+    transform 0.6s ease-out;
+}
+
+.fade-in-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Optional: Different animation variants */
+.fade-in-section.from-left {
+  transform: translateX(-30px);
+}
+
+.fade-in-section.from-left.visible {
+  transform: translateX(0);
+}
+
+.fade-in-section.from-right {
+  transform: translateX(30px);
+}
+
+.fade-in-section.from-right.visible {
+  transform: translateX(0);
+}
+
+.fade-in-section.scale-in {
+  transform: scale(0.95);
+}
+
+.fade-in-section.scale-in.visible {
+  transform: scale(1);
+}
