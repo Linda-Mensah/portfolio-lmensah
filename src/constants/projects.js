@@ -29,7 +29,7 @@ export const projects = [
     title: "Altair Logistics",
     description:
       "Altair Logistics World Cup Experience platform is a high-performance, responsive website promoting premium tickets and exclusive hospitality packages. Focused on seamless user journeys, optimized booking flows, and dynamic content integration to ensure an engaging, conversion-driven experience for global football fans preparing for World Cup 2026.",
-    tech: ["Next.js, TailwindCSS, ShadCn, Responsive Design"],
+    tech: ["Next.js", "TailwindCSS", "ShadCn", "Responsive Design"],
     role: "Frontend",
     links: { demo: "https://world-cup-experience.vercel.app/" },
     icon: Trophy,
@@ -70,7 +70,7 @@ export const projects = [
     description:
       "HireLink is a streamlined hiring platform designed to simplify recruitment. It features multi-step job applications, admin and recruiter dashboards, and real-time applicant tracking. The platform improves hiring efficiency by providing role-based access, a modern responsive UI, and seamless workflow management across teams.",
     tech: ["React.js", "Vite", "TypeScript", "TailwindCSS", "Zustand"],
-    role: "Fullstack",
+    role: "Frontend",
     links: { demo: "https://hirelink.netlify.app" },
 
     icon: Briefcase,
@@ -110,7 +110,7 @@ export const projects = [
     title: "ScaleApp",
     description:
       "Built the ScaleApp website to reflect its mission of empowering young individuals through education, mentorship, and real-world skill development. Designed and developed a responsive, user-focused platform that clearly communicates its vision, supports program discovery, and creates an engaging digital experience aligned with growth and lifelong learning.",
-    tech: ["React.js", "Resend", "Prisma", "RHF"],
+    tech: ["React.js", "Resend", "Prisma", "RHF & Zod"],
     role: "Fullstack",
     links: { demo: "https://scale-app-two.vercel.app/" },
     icon: TrendingUp,
