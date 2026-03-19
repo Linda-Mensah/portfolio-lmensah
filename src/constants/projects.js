@@ -12,6 +12,7 @@ import {
   Briefcase,
   Trophy,
   TrendingUp,
+  Sprout,
 } from "lucide-react";
 
 export const projects = [
@@ -105,6 +106,21 @@ export const projects = [
     links: { demo: "https://peeva-invitational.vercel.app/" },
     icon: Gamepad,
     image: "/peeva-thumbnail.png",
+  },
+  {
+    title: "African Diaspora Civic Center",
+    description:
+      "Designed and developed the African Diaspora Civic Center (ADCC)'s responsive website, showcasing its mission of cultural preservation and community engagement. Built user-friendly interfaces to highlight programs, values, and initiatives, creating an engaging digital space that connects Africa and its diaspora while promoting identity, collaboration, and leadership development.",
+    tech: [
+      "React.js",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Responsive Design",
+      "Netlify",
+    ],
+    links: { demo: "https://africandcc.netlify.app/" },
+    icon: Sprout,
+    image: "/adcc-thumbnail.png",
   },
   {
     title: "ScaleApp",
