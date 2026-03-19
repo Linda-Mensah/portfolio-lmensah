@@ -30,6 +30,7 @@ const Contact = () => {
             <a
               key={platform.title}
               href={platform.link}
+              target="_blank"
               className="text-inherit no-underline font-medium text-sm sm:text-base hover:opacity-80 transition-opacity duration-300"
             >
               {platform.title}
