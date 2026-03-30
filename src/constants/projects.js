@@ -37,6 +37,15 @@ export const projects = [
     image: "/altair-thumbnail.png",
   },
   {
+    title: "Deez Biz",
+    description:
+      "Deez Essence is a modern Next.js and TypeScript website featuring household, baby care, and lifestyle products. It offers clean, mobile-friendly navigation with category-based browsing. Powered by Sanity CMS for real-time content updates and Resend for emails, it supports WhatsApp and call ordering for seamless customer interaction.",
+    tech: ["Sanity CMS", "Resend", "Next.js", "TypeScript"],
+    role: "Frontend",
+    links: { demo: "https://deezbiz.com" },
+    image: "/deez-biz-thumbnail.png",
+  },
+  {
     title: "Bye-Bye Store",
     description:
       "Bye-Bye Store is a multitenant vendor marketplace built to support full CRUD operations for product management and marketing. The platform enables multiple vendors to create, manage, update, and promote their products through a centralized system, streamlining inventory control, vendor onboarding, and product visibility for scalable e-commerce operations.",
