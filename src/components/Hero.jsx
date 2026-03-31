@@ -23,7 +23,7 @@ const Hero = () => {
         <a
           href="https://drive.google.com/file/d/1rTXtTqHKU8p2b0dgVpIl64QwJzZuW6Rp/view?usp=sharing"
           target="_blank"
-          className="inline-flex items-center mt-8 gap-2 px-6 py-3 bg-[rgba(255,255,255,0.05)] hover:bg-[rgba(255,255,255,0.1)] border border-white/10 rounded-lg text-sm font-medium transition-all hover:gap-3 group"
+          className="inline-flex items-center mt-8 gap-2 px-6 py-3 bg-[#C95616] hover:bg-[rgba(255,255,255,0.1)] border border-white/10 rounded-lg text-sm font-medium transition-all hover:gap-3 group"
         >
           View CV
           <ArrowRight className="w-4 h-4  group-hover:translate-x-1 transition-transform" />

@@ -20,7 +20,14 @@ export const projects = [
     title: "Kalys House",
     description:
       "Kaly’s House is a mobile-first livestream hub that centralizes Kaly Jay’s 72-hour live event across X, YouTube, and TikTok. It provides one destination to watch streams, track the live schedule, view highlights, and apply for Fan Passes, boosting engagement, community participation, and social momentum throughout the event.",
-    tech: ["Next.js", "Prisma", "Typescript", "Resend", "Sanity CMS"],
+    tech: [
+      "Next.js",
+      "Prisma",
+      "TailwindCSS",
+      "Typescript",
+      "Resend",
+      "Sanity CMS",
+    ],
     role: "Frontend",
     links: { demo: "https://www.kalyshouse.live/" },
     icon: LayoutDashboard,
@@ -32,7 +39,7 @@ export const projects = [
       "Altair Logistics World Cup Experience platform is a high-performance, responsive website promoting premium tickets and exclusive hospitality packages. Focused on seamless user journeys, optimized booking flows, and dynamic content integration to ensure an engaging, conversion-driven experience for global football fans preparing for World Cup 2026.",
     tech: ["Next.js", "TailwindCSS", "ShadCn", "Responsive Design"],
     role: "Frontend",
-    links: { demo: "https://world-cup-experience.vercel.app/" },
+    links: { demo: "https://www.watchtheworldcup.live/" },
     icon: Trophy,
     image: "/altair-thumbnail.png",
   },
@@ -40,10 +47,27 @@ export const projects = [
     title: "Deez Biz",
     description:
       "Deez Essence is a modern Next.js and TypeScript website featuring household, baby care, and lifestyle products. It offers clean, mobile-friendly navigation with category-based browsing. Powered by Sanity CMS for real-time content updates and Resend for emails, it supports WhatsApp and call ordering for seamless customer interaction.",
-    tech: ["Sanity CMS", "Resend", "Next.js", "TypeScript"],
+    tech: [
+      "Sanity CMS",
+      "Resend",
+      "Motion",
+      "TailwindCSS",
+      "Next.js",
+      "TypeScript",
+    ],
     role: "Frontend",
     links: { demo: "https://deezbiz.com" },
     image: "/deez-biz-thumbnail.png",
+  },
+  {
+    title: "Livewell",
+    description:
+      "LIVEWELL is a wellness-focused event platform designed to promote healthy living and community engagement. It acts as the digital hub for the Livewell fitness and health festival, providing event details, schedules, sponsor exposure, volunteer sign-ups, and attendee registration, helping users explore wellness activities and stay informed before and during the event.",
+    tech: ["Next.js", "TypeScript", "Postman", "Vercel", "Sanity CMS"],
+    role: "Frontend",
+    links: { demo: "https://livewellfestival.life/" },
+    icon: Home,
+    image: "/livewell-thumbnail.png",
   },
   {
     title: "Bye-Bye Store",
@@ -51,9 +75,20 @@ export const projects = [
       "Bye-Bye Store is a multitenant vendor marketplace built to support full CRUD operations for product management and marketing. The platform enables multiple vendors to create, manage, update, and promote their products through a centralized system, streamlining inventory control, vendor onboarding, and product visibility for scalable e-commerce operations.",
     tech: ["React.js", "REST APIs", "Authentication", "E-commerce"],
     role: "Frontend",
-    links: { demo: "https://bye-bye-store.netlify.app" },
+    links: { demo: "https://bye-bye-store.netlify.app/user-ads" },
     icon: ShoppingCart,
     image: "/bb-store-thumbnail.png",
+  },
+
+  {
+    title: "BallGbee",
+    description:
+      "Ball Gbee is a dynamic sports platform celebrating football culture across Africa. It delivers immersive fan experiences through street challenges, podcasts, live watch-alongs, and premium events. Featuring a ticketing system and interactive dashboard, Ball Gbee enhances engagement, offering fans high-energy entertainment, community interaction, and a new way to connect with the game.",
+    tech: ["Next.js", "Dashboard", "Ticketing", "Testing"],
+    role: "Frontend",
+    links: { demo: "https://ballgbee.live/" },
+    icon: Ticket,
+    image: "/ballgbee-thumbnail.png",
   },
   {
     title: "Vegatem",
@@ -65,16 +100,7 @@ export const projects = [
     icon: Globe,
     image: "/vegatem-thumbnail.png",
   },
-  {
-    title: "BallGbee",
-    description:
-      "Ball Gbee is a dynamic sports platform celebrating football culture across Africa. It delivers immersive fan experiences through street challenges, podcasts, live watch-alongs, and premium events. Featuring a ticketing system and interactive dashboard, Ball Gbee enhances engagement, offering fans high-energy entertainment, community interaction, and a new way to connect with the game.",
-    tech: ["Next.js", "Dashboard", "Ticketing", "Testing"],
-    role: "Frontend",
-    links: { demo: "https://ballgbee.live/" },
-    icon: Ticket,
-    image: "/ballgbee-thumbnail.png",
-  },
+
   {
     title: "HireLink",
     description:
@@ -96,16 +122,7 @@ export const projects = [
     icon: Shield,
     image: "/codeblue-thumbnail.png",
   },
-  {
-    title: "Livewell",
-    description:
-      "LIVEWELL is a wellness-focused event platform designed to promote healthy living and community engagement. It acts as the digital hub for the Livewell fitness and health festival, providing event details, schedules, sponsor exposure, volunteer sign-ups, and attendee registration, helping users explore wellness activities and stay informed before and during the event.",
-    tech: ["Next.js", "TypeScript", "Postman", "Vercel", "Sanity CMS"],
-    role: "Frontend",
-    links: { demo: "https://livewellfestival.life/" },
-    icon: Home,
-    image: "/livewell-thumbnail.png",
-  },
+
   {
     title: "Peeva Invitational",
     description:
@@ -127,7 +144,7 @@ export const projects = [
       "Responsive Design",
       "Netlify",
     ],
-    links: { demo: "https://africandcc.netlify.app/" },
+    links: { demo: "https://www.africandcc.org/" },
     icon: Sprout,
     image: "/adcc-thumbnail.png",
   },
@@ -137,7 +154,7 @@ export const projects = [
       "Built the ScaleApp website to reflect its mission of empowering young individuals through education, mentorship, and real-world skill development. Designed and developed a responsive, user-focused platform that clearly communicates its vision, supports program discovery, and creates an engaging digital experience aligned with growth and lifelong learning.",
     tech: ["React.js", "Resend", "Prisma", "RHF & Zod"],
     role: "Fullstack",
-    links: { demo: "https://scale-app-two.vercel.app/" },
+    links: { demo: "https://www.scaleapp.live/" },
     icon: TrendingUp,
     image: "/scale-app-thumbnail.png",
   },
@@ -147,7 +164,7 @@ export const projects = [
       "VECTOR Point Group is a corporate platform representing a multinational organization focused on accelerating global expansion. The site highlights turnkey solutions in international trade, real estate development, and infrastructure, showcasing ongoing and completed projects across five continents while communicating the group’s expertise, partnerships, and long-term development vision.",
     tech: ["Next.js", "TailwindCss", "TypeScript", "Resend"],
     role: "Frontend",
-    links: { demo: "https://vector-point-group.netlify.app/" },
+    links: { demo: "https://vectorpointgroup.com//" },
     icon: Link,
     image: "vpg-thumbnail.png",
   },
