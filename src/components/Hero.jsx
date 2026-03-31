@@ -8,11 +8,12 @@ const Hero = () => {
   return (
     <header
       ref={sectionRef}
-      className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 min-h-screen flex flex-col md:flex-row items-center justify-center md:justify-between pt-20 md:pt-0 fade-in-section"
+      className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 my-10 flex flex-col md:flex-row items-center justify-center md:justify-between pt-20 md:pt-0 fade-in-section"
     >
       <div className="w-full md:w-1/2 z-10 mb-12 md:mb-0">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium tracking-tight leading-tight mb-2 md:mb-8">
-          Hi, my name is Linda A. K. Mensah
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-medium tracking-tight leading-tight mb-2 md:mb-8">
+          Hi, my name is <br />
+          Linda A. K. Mensah
         </h1>
         <p className="text-lg md:text-xl text-[#8aa39b] max-w-2xl">
           I'm a frontend developer with a strong QA background, specializing in

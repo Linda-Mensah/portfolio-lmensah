@@ -15,7 +15,7 @@ const Projects = () => {
     <section
       id="projects"
       ref={sectionRef}
-      className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-12 sm:py-16 md:py-20 lg:py-32 fade-in-section"
+      className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-12 sm:py-16 md:py-20 fade-in-section"
     >
       {/* Rest of your component remains exactly the same */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 sm:mb-12 gap-4">
@@ -37,7 +37,7 @@ const Projects = () => {
         </Link>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-7xl mx-auto">
         {homepageProjects.map((project, index) => (
           <ProjectCard key={index} {...project} />
         ))}
