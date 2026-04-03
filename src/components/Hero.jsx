@@ -20,15 +20,24 @@ const Hero = () => {
           building exceptional digital experiences. Currently focused on
           creating accessible, performant, and user-centric web applications.
         </p>
-
-        <a
-          href="https://drive.google.com/file/d/1rTXtTqHKU8p2b0dgVpIl64QwJzZuW6Rp/view?usp=sharing"
-          target="_blank"
-          className="inline-flex items-center mt-8 gap-2 px-6 py-3 bg-[#C95616] hover:bg-[rgba(255,255,255,0.1)] border border-white/10 rounded-lg text-sm font-medium transition-all hover:gap-3 group"
-        >
-          View CV
-          <ArrowRight className="w-4 h-4  group-hover:translate-x-1 transition-transform" />
-        </a>
+        <div className="flex gap-3">
+          <a
+            href="https://drive.google.com/file/d/1rTXtTqHKU8p2b0dgVpIl64QwJzZuW6Rp/view?usp=sharing"
+            target="_blank"
+            className="inline-flex items-center mt-8 gap-2 px-6 py-3 bg-[#C95616] hover:bg-transparent border border-white/10 rounded-lg text-sm font-medium transition-all hover:gap-3 group"
+          >
+            View CV
+            <ArrowRight className="w-4 h-4  group-hover:translate-x-1 transition-transform" />
+          </a>
+          <a
+            href="https://eye-quiz.netlify.app/"
+            target="_blank"
+            className="inline-flex items-center mt-8 gap-2 px-6 py-3 hover:bg-transparent bg-[rgba(255,255,255,0.1)] border border-white/10 rounded-lg text-sm font-medium transition-all hover:gap-3 group"
+          >
+            Quick Fun Quiz!
+            <ArrowRight className="w-4 h-4  group-hover:translate-x-1 transition-transform" />
+          </a>
+        </div>
       </div>
 
       <div className="w-full md:w-1/2 h-80 sm:h-110 md:h-130 relative">
