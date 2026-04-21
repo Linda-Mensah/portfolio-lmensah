@@ -13,6 +13,7 @@ import {
   Trophy,
   TrendingUp,
   Sprout,
+  GraduationCap,
 } from "lucide-react";
 
 export const projects = [
@@ -132,6 +133,23 @@ export const projects = [
     links: { demo: "https://peeva-invitational.vercel.app/" },
     icon: Gamepad,
     image: "/peeva-thumbnail.png",
+  },
+  {
+    title: "Ghana Institute of Social Democracy",
+    description:
+      "The Ghana Institute of Social Democracy (GISD) platform presents training programmes, research, and institutional information through a clean, structured interface, with subtle animations and thoughtful layout choices that enhance usability while maintaining a professional, credible tone aligned with the organization’s identity.",
+    tech: [
+      "Next.js",
+      "Tailwind CSS",
+      "Resend",
+      "Zod",
+      "RHF",
+      "Responsive Design",
+    ],
+    role: "Frontend",
+    links: { demo: "https://www.gisd.edu.gh/" },
+    icon: GraduationCap,
+    image: "/gisd-thumbnail.png",
   },
   {
     title: "African Diaspora Civic Center",
