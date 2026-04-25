@@ -14,6 +14,7 @@ import {
   TrendingUp,
   Sprout,
   GraduationCap,
+  Recycle,
 } from "lucide-react";
 
 export const projects = [
@@ -43,6 +44,17 @@ export const projects = [
     links: { demo: "https://www.watchtheworldcup.live/" },
     icon: Trophy,
     image: "/altair-thumbnail.png",
+  },
+
+  {
+    title: "Trash of Fame",
+    description:
+      "Ghana’s Largest Handbag Project platform is a visually engaging, responsive website showcasing a record-breaking installation made entirely from discarded textile waste. Focused on storytelling, sustainability messaging, and immersive visuals, it delivers a compelling narrative that highlights African innovation, environmental responsibility, and creative reuse at scale.",
+    tech: ["Next.js", "TailwindCC", "Resend", "Sanity CMS, TypeScript"],
+    role: "Frontend",
+    links: { demo: "https://www.trashoffame.com/" },
+    icon: Recycle,
+    image: "/tof-thumbnail.png",
   },
   {
     title: "Deez Biz",
