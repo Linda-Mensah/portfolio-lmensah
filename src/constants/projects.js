@@ -15,6 +15,7 @@ import {
   Sprout,
   GraduationCap,
   Recycle,
+  CodeIcon,
 } from "lucide-react";
 
 export const projects = [
@@ -44,6 +45,23 @@ export const projects = [
     links: { demo: "https://www.watchtheworldcup.live/" },
     icon: Trophy,
     image: "/altair-thumbnail.png",
+  },
+  {
+    title: "Friendly Dev",
+    description:
+      "Friendly Dev is a personal developer portfolio and blog showcasing projects, articles, and experience, with content managed through a headless CMS. It features dynamic project and post listings, responsive UI, and optimized performance.",
+    tech: [
+      "React Router 7",
+      "TypeScript",
+      "Strapi CMS",
+      "Node.js",
+      "Render",
+      "Vercel",
+    ],
+    role: "Fullstack",
+    links: { demo: "https://friendly-dev-frontend-vert-chi.vercel.app/" },
+    icon: CodeIcon,
+    image: "/friendly-dev-thumbnail.png",
   },
 
   {
