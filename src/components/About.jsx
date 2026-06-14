@@ -16,10 +16,10 @@ const About = () => {
             The intersection of logic and creativity.
           </h2>
           <p className="text-lg md:text-xl text-[#8aa39b] mb-6 sm:mb-8 leading-relaxed">
-            I'm a passionate frontend developer with a unique background in
-            Quality Assurance. This combination gives me a distinctive
-            perspective on building software, with a keen eye for detail and a
-            deep understanding of user experience.
+            I'm a software developer with a unique background in Quality
+            Assurance. This combination gives me a distinctive perspective on
+            building software, with a keen eye for detail and a deep
+            understanding of user experience.
           </p>
 
           <p className="text-lg md:text-xl text-[#8aa39b] mb-2 sm:mb-2 leading-relaxed">
