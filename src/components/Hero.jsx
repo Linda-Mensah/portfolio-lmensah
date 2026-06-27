@@ -22,7 +22,8 @@ const Hero = () => {
         </p>
         <div className="flex gap-3">
           <a
-            href="https://drive.google.com/file/d/1rTXtTqHKU8p2b0dgVpIl64QwJzZuW6Rp/view?usp=sharing"
+            // href="https://drive.google.com/file/d/1rTXtTqHKU8p2b0dgVpIl64QwJzZuW6Rp/view?usp=sharing"
+            href="#"
             target="_blank"
             className="inline-flex items-center mt-8 gap-2 px-6 py-3 bg-[#C95616] hover:bg-transparent border border-white/10 rounded-lg text-sm font-medium transition-all hover:gap-3 group"
           >
