@@ -15,17 +15,18 @@ const About = () => {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium tracking-tight mb-8 sm:mb-10">
             The intersection of logic and creativity.
           </h2>
-          <p className="text-lg md:text-xl text-[#8aa39b] mb-6 sm:mb-8 leading-relaxed">
-            I'm a software developer with a unique background in Quality
-            Assurance. This combination gives me a distinctive perspective on
-            building software, with a keen eye for detail and a deep
-            understanding of user experience.
+          <p className="text-lg md:text-xl text-[#8aa39b] mb-2 sm:mb-2 leading-relaxed">
+            I’m currently exploring frontend development, transitioning from a
+            background in QA and Project Coordination. This journey is shaping
+            how I think about building products, giving me a strong eye for
+            detail and a growing understanding of user experience.
           </p>
 
           <p className="text-lg md:text-xl text-[#8aa39b] mb-2 sm:mb-2 leading-relaxed">
-            Today, I focus on building accessible, performant, and visually
-            polished web applications. My QA background means I write cleaner
-            code, anticipate edge cases, and always keep the end user in mind.
+            As I continue learning, I focus on building accessible, performant,
+            and visually polished web applications. My QA background helps me
+            think critically, anticipate edge cases, and stay intentional about
+            quality and usability as I grow my skills.
           </p>
         </div>
 
